@@ -1,0 +1,16 @@
+  pw:browser <selenium> connecting to http://localhost:4444/ +0ms
+  pw:browser <selenium> connected to sessionId=89acbcb3fab521c889b934d1ba497935 +4s
+  pw:browser <selenium> using selenium v4 +0ms
+  pw:browser <selenium> retrieved endpoint ws://localhost:4444/session/89acbcb3fab521c889b934d1ba497935/se/cdp for sessionId=89acbcb3fab521c889b934d1ba497935 +1ms
+  pw:browser <ws connecting> ws://localhost:4444/session/89acbcb3fab521c889b934d1ba497935/se/cdp +19ms
+  pw:browser <ws connected> ws://localhost:4444/session/89acbcb3fab521c889b934d1ba497935/se/cdp +216ms
+  pw:browser <launching> /Users/edenbar/Library/Caches/ms-playwright/ffmpeg-1009/ffmpeg-mac -loglevel error -f image2pipe -avioflags direct -fpsprobesize 0 -probesize 32 -analyzeduration 0 -c:v mjpeg -i - -y -an -r 25 -c:v vp8 -qmin 0 -qmax 50 -crf 8 -deadline realtime -speed 8 -b:v 1M -threads 1 -vf pad=800:450:0:0:gray,crop=800:450:0:0 /Users/edenbar/Desktop/book-cart-Playwright/test-results/.playwright-artifacts-3/160d205a320fe141c70613d713ae6589.webm +448ms
+  pw:browser <launched> pid=4627 +1ms
+  pw:browser [pid=4627] <gracefully close start> +6s
+  pw:browser Closing stdin... +0ms
+  pw:browser ffmpeg finished input. +0ms
+  pw:browser [pid=4627] <process did exit: exitCode=0, signal=null> +20ms
+  pw:browser ffmpeg onkill exitCode=0 signal=null +0ms
+  pw:browser [pid=4627] starting temporary directories cleanup +1ms
+  pw:browser [pid=4627] finished temporary directories cleanup +0ms
+  pw:browser [pid=4627] <gracefully close end> +0ms

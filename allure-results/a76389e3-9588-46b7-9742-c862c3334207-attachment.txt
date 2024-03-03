@@ -1,0 +1,10 @@
+  pw:browser <launching> /Users/edenbar/Library/Caches/ms-playwright/ffmpeg-1009/ffmpeg-mac -loglevel error -f image2pipe -avioflags direct -fpsprobesize 0 -probesize 32 -analyzeduration 0 -c:v mjpeg -i - -y -an -r 25 -c:v vp8 -qmin 0 -qmax 50 -crf 8 -deadline realtime -speed 8 -b:v 1M -threads 1 -vf pad=800:450:0:0:gray,crop=800:450:0:0 /Users/edenbar/Desktop/book-cart-Playwright/test-results/.playwright-artifacts-0/fb9293aedcb26ec6ecdc077bb01ff5bf.webm +115ms
+  pw:browser <launched> pid=1990 +1ms
+  pw:browser [pid=1990] <gracefully close start> +27s
+  pw:browser Closing stdin... +0ms
+  pw:browser ffmpeg finished input. +0ms
+  pw:browser [pid=1990] <process did exit: exitCode=0, signal=null> +7ms
+  pw:browser ffmpeg onkill exitCode=0 signal=null +0ms
+  pw:browser [pid=1990] starting temporary directories cleanup +0ms
+  pw:browser [pid=1990] finished temporary directories cleanup +0ms
+  pw:browser [pid=1990] <gracefully close end> +0ms

@@ -50,6 +50,7 @@ test.describe("Comprehensive test suite covering both negative and functional sc
     navigateToPage,
   }) => {
     await loginPage.login(testData.validUsername, testData.validPassword);
+    await page.waitForTimeout(20000);
     loginPage.assertLoginSuccessfully(" ortoni ");
     await expect(page).toHaveURL(testData.successfullyLoggedInURL);
   });
